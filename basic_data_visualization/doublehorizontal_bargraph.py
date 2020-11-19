@@ -18,9 +18,7 @@ print(doublehorizontal_data)
 
 
 ## set up bar chart ##
-
 doublehorizontal_data.plot(kind='barh')
-
 plt.xlabel('Number of People')
 plt.ylabel('Favorite Movie Genre')
 plt.yticks([0,1,2,3], ['Action', 'Horror', 'Comedy', 'Romance'])
@@ -28,5 +26,6 @@ plt.title('Favorite Movie Genres')
 plt.legend()
 
 ## display bar chart ##
-
 plt.show()
+
+
